@@ -42,11 +42,55 @@ nav ul li a:hover {
 main {
     padding: 20px 40px;
     font-family: Inter, sans-serif;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
 }
-footer {
+
+section {
+    border: none !important;
+    background: linear-gradient(160deg,  #88a7d5, #88d5cf 70%);
+    border-radius: 25px;
+    padding: 20px;
+}
+section ul {
+    margin-top: 30px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+section ul li {
+    width: calc(50% - 60px);
+    min-height: 150px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px #531fa6 solid;
+    border-radius: 20px;
+    background: linear-gradient(160deg,  #88a7d5, #88d5cf 70%);
+}
+
+footer { 
     padding: 20px;
     text-align: center;
     font-size: 12px;
     color: #76859c;
     font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.social-media{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
